@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+    header{
+        .header_container{
+            
+            .wide{
+                padding: 20px 0;
+                background-color: #333333;
+            }
+            
+            .navbar-toggler{
+                border-color: #333333;
+            }
+            
+            .navbar-toggler-icon{
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+            
+            
+            .navbar-nav{
+                width: 100%;
+                justify-content: center;
+            
+               .nav-link{
+                   color: white;
+                   font-size: 2rem;
+                   margin: 20px;
+                   
+                }
+            }
+        }
+    }
+    
+    .main_photo{
+        background-image: url("images/portfolio_topphoto.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        height: 600px;
+        margin-bottom: 200px;
+    }
+    
+    .main_container{
+        
+ 
+            
+            .about_page{
+                width: 60%;
+                margin: 0 auto;
+           
+                
+                .myphoto{
+                    position: relative;
+                    display: flex;
+                    
+                }
+            
+            img{
+                max-width: 100%;
+            }
+            
+            h2{
+                 transform: rotateZ( 90deg );
+                 position: absolute;
+                 top: -10vh;
+                 left: 1vw;
+                 font-size: 80px;
+                 transform-origin: top left;
+            }
+            
+            .skill_graph{
+                background-color: gray;
+                padding: 20vh 20vw;
+                max-width: 100%;
+            }
+            
+        }//about_me
+        
+    }//main_container
+    
+    .works_container{
+        position: relative;
+        
+        h2{
+                 transform: rotateZ( 90deg );
+                 position: absolute;
+                 top: 50px;
+                 left: 80px;
+                 font-size: 80px;
+        }
+    }
+}//body
