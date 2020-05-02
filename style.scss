@@ -36,6 +36,11 @@ body{
             }
         }
     }
+
+    
+    .section1{
+        margin-bottom: 500px;
+    }
     
     .main_photo{
         background-image: url("images/portfolio_topphoto.png");
@@ -88,9 +93,11 @@ body{
                      img{
                         max-width: 100%;
                         border-radius: 200px;
+                        margin-top: 65px;
+                        margin-left: 65px;
                     }
-                    afdafdsa
-                    
+            
+                     h2{
                          transform: rotateZ( 90deg );
                          position: absolute;
                          top: -8vh;
@@ -114,9 +121,20 @@ body{
         
     }//main_container
     
+    
+    
     .works_container{
         position: relative;
-        
+    
+        .child_container{
+            background-color: #d8ebe9;
+                height: 500px;
+                position: absolute;
+                top: 2vh;
+                width: 100%;
+            
+        }
+            
         h2{
                  transform: rotateZ( 90deg );
                  position: absolute;

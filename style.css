@@ -15,6 +15,8 @@ body header .header_container .navbar-nav {
     color: white;
     font-size: 2rem;
     margin: 20px; }
+body .section1 {
+  margin-bottom: 500px; }
 body .main_photo {
   background-image: url("images/portfolio_topphoto.png");
   background-size: cover;
@@ -47,7 +49,9 @@ body .main_container .about_page {
       left: 3vw; }
     body .main_container .about_page .myphoto_img img {
       max-width: 100%;
-      border-radius: 200px; }
+      border-radius: 200px;
+      margin-top: 65px;
+      margin-left: 65px; }
     body .main_container .about_page .myphoto_img h2 {
       transform: rotateZ(90deg);
       position: absolute;
@@ -62,6 +66,12 @@ body .main_container .about_page {
         margin: auto; }
 body .works_container {
   position: relative; }
+  body .works_container .child_container {
+    background-color: #d8ebe9;
+    height: 500px;
+    position: absolute;
+    top: 2vh;
+    width: 100%; }
   body .works_container h2 {
     transform: rotateZ(90deg);
     position: absolute;
