@@ -4,7 +4,8 @@
         <section>
         <div class="main_photo"><!--ここには写真が入る-->
         </div>
-        
+        <?php
+        ?>
         <div class="main_container">
             
             <div class="about_container">
