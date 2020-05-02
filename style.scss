@@ -46,41 +46,71 @@ body{
         margin-bottom: 200px;
     }
     
+    .thenkyou_text{
+        display: flex;
+        justify-content: center;
+    }
+    
     .main_container{
+        
+        .about_container{
+            position: relative;
+            
+            .about_background{
+                background-color: #d8ebe9;
+                height: 500px;
+                position: absolute;
+                top: 2vh;
+                width: 100%;
+                
+            }
+        }
         
  
             
             .about_page{
                 width: 60%;
                 margin: 0 auto;
-           
+                display: flex;
                 
-                .myphoto{
-                    position: relative;
-                    display: flex;
+          
+                    .myphoto_img{
+                        position: relative;
+                        display: flex;
+                        margin-left: 100px;
+                        
+                        .thenkyou_text{
+                                top: -10vh;
+                                position: absolute;
+                                left: 3vw;
+                            }
                     
-                }
+                     img{
+                        max-width: 100%;
+                        border-radius: 200px;
+                    }
+                    
+                    h2{
+                         transform: rotateZ( 90deg );
+                         position: absolute;
+                         top: -8vh;
+                         left: 1vw;
+                         font-size: 80px;
+                         transform-origin: top left;
+                         width: 100%;
+                    }
+                    
+                    .explanatory_text{
+                        margin: 50px 0 0 35px;
+                    
+                    p{
+                        margin: auto;
+                    }
+                    
+                }//explanatory_text
             
-            img{
-                max-width: 100%;
-            }
-            
-            h2{
-                 transform: rotateZ( 90deg );
-                 position: absolute;
-                 top: -10vh;
-                 left: 1vw;
-                 font-size: 80px;
-                 transform-origin: top left;
-            }
-            
-            .skill_graph{
-                background-color: gray;
-                padding: 20vh 20vw;
-                max-width: 100%;
-            }
-            
-        }//about_me
+            }//myphoto_img  
+        }//about_page
         
     }//main_container
     
