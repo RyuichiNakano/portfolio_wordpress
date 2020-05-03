@@ -1,7 +1,7 @@
 <?php get_header(); //header.phpを取得 ?>
     
     <main>
-        <section class=section1>
+        <section id="section_about">
         <div class="main_photo"><!--ここには写真が入る-->
         </div>
         
@@ -43,7 +43,7 @@
               </div><!--about_container-->
             </div><!--main_container-->
             </section>
-            <section>
+            <section id="section_works">
             <div class="works_container">
             
             <div class="childworks_container">
@@ -80,10 +80,57 @@
 		            </div>
                  </div><!--child_page-->
                     
-                </div><!--child_container-->
-              </div><!--works_container-->
+                </div><!--works_page-->
+              </div><!--childworks_container-->
+             </div><!--works_container-->
             </section>
           
+            <section id="section_skills">
+            <div class="slills_container">
+            
+            <div class="childworks_container">
+                <div class="works_background"></div>
+                    <div class="works_page">
+                    <div class="thenkyou_text">
+                        <h3>僕が作成した作品です。模写作品が多くなっています。今後徐々に増やしていきます。
+                        <br>どんなスキルでも貪欲に学んでいきたいと思っています。
+                        <br>模写作品もありますが少しでも見て頂けると幸いです。フィードバックを頂けると感激です。
+                        </h3>
+                        </div><!--thenkyou_text-->
+                    <h2>WORKS</h2>
+                    <div class="explanatory_works">
+                       
+                        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/325/700/400/);">    
+                        <h3>SHOPPING SITE<span>模写作品</span></h3>
+                        <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
+                        ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
+                        </p>
+                    </div>
+                        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/548/700/400/);">
+                        <!--画像がはいる-->
+                        <h3>COMPANY SITE<span>模写作品</span></h3>
+                        <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
+                        ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
+                        </p>
+                    </div>
+                        <div class="swaiper-slide" style="background-image: url(https://picsum.photos/id/550/700/400/);">
+                        <!--画像がはいる-->
+                        <h3>WordPress SITE<span>模写作品</span></h3>
+                        <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
+                        ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
+                        </p>
+		            </div>
+                 </div><!--child_page-->
+                    
+                </div><!--works_page-->
+              </div><!--childworks_container-->
+             </div><!--works_container-->
+            </section>
+            
+            
+            <canvas id="myChart"></canvas>
+            
+            
             
             
             
@@ -99,7 +146,6 @@
                     </div><!--contact_form-->
                 </div><!--contact_container-->
             </section>
-        </div><!--main_container-->
     </main>
     
 
