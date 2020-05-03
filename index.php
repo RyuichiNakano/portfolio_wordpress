@@ -128,7 +128,8 @@
             </section>
             
             
-            <canvas id="myChart"></canvas>
+            	
+　　　　　　<canvas id=“graph” width=“300px” height=“300px”></canvas>
             
             
             
