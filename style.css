@@ -64,19 +64,33 @@ body .main_container .about_page {
       margin: 50px 0 0 35px; }
       body .main_container .about_page .myphoto_img .explanatory_text p {
         margin: auto; }
-body .works_container {
+body .thenkyou_text {
+  display: flex;
+  justify-content: center; }
+body .works_container .childworks_container {
   position: relative; }
-  body .works_container .child_container {
+  body .works_container .childworks_container .works_background {
     background-color: #d8ebe9;
     height: 500px;
     position: absolute;
     top: 2vh;
     width: 100%; }
-  body .works_container h2 {
+body .works_container .works_page {
+  width: 60%;
+  margin: 0 auto;
+  display: flex; }
+  body .works_container .works_page h2 {
     transform: rotateZ(90deg);
     position: absolute;
-    top: 50px;
-    left: 80px;
-    font-size: 80px; }
+    top: -7vh;
+    left: 27vw;
+    font-size: 80px;
+    transform-origin: top left;
+    width: 100%; }
+  body .works_container .works_page .explanatory_text {
+    margin: 50px 0 0 35px; }
+  body .works_container .works_page .explanatory_works {
+    display: flex;
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

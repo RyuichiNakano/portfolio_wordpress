@@ -57,21 +57,21 @@
                         </div><!--thenkyou_text-->
                     <h2>WORKS</h2>
                     <div class="explanatory_works">
-                        <div class="box1">
-                        <!--画像がはいる-->
+                       
+                        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/325/700/400/);">    
                         <h3>SHOPPING SITE<span>模写作品</span></h3>
                         <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         </p>
                     </div>
-                    <div class="box2">
+                        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/548/700/400/);">
                         <!--画像がはいる-->
                         <h3>COMPANY SITE<span>模写作品</span></h3>
                         <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         </p>
                     </div>
-                    <div class="box3">
+                        <div class="swaiper-slide" style="background-image: url(https://picsum.photos/id/550/700/400/);">
                         <!--画像がはいる-->
                         <h3>WordPress SITE<span>模写作品</span></h3>
                         <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
@@ -102,43 +102,6 @@
         </div><!--main_container-->
     </main>
     
-    <footer>
-        <div class="footer_container">
-            <div class="footer_nav">
-                <div class="nav1">
-                    <h4>BLOG</h4>
-                    <p>word press作成方法</p>
-                    <p>勉強アウトプット</p>
-                    <p>word press作成方法</p>
-                    <p>勉強アウトプット</p>
-                </div>
-                <div class="nav1">
-                    <h4>WORKS</h4>
-                    <p>仕事紹介ページ</p>
-                </div>
-                <div class="nav1">
-                    <h4>ABOUT</h4>
-                    <p>自己紹介ページ</p>
-                </div>
-                <div class="nav1">
-                    <h4>CONTACT</h4>
-                    <p>お問い合わせ</p>
-                </div>
-            </div><!--fotter_nav-->
-        </div><!--fotter_container-->
-        <div class="footer_icon">
-            <!--myicon-->
-            <!--instaicon-->
-            <!--twittericon-->
-            <!--facebookicon-->
-        </div>
-    </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+ 
 
