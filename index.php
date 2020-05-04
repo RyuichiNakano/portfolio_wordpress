@@ -101,21 +101,21 @@
                     <div class="explanatory_works">
                        
                         <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/325/700/400/);">    
-                        <h3>SHOPPING SITE<span>模写作品</span></h3>
+                        <h4>SHOPPING SITE<span>模写作品</span></h4>
                         <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         </p>
                     </div>
                         <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/548/700/400/);">
                         <!--画像がはいる-->
-                        <h3>COMPANY SITE<span>模写作品</span></h3>
+                        <h4>COMPANY SITE<span>模写作品</span></h4>
                         <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         </p>
                     </div>
-                        <div class="swaiper-slide" style="background-image: url(https://picsum.photos/id/550/700/400/);">
+                        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/550/700/400/);">
                         <!--画像がはいる-->
-                        <h3>WordPress SITE<span>模写作品</span></h3>
+                        <h4>WordPress SITE<span>模写作品</span></h4>
                         <p>ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         </p>
@@ -130,7 +130,7 @@
             
             	
 　　　　　　<canvas id=“graph” width=“300px” height=“300px”></canvas>
-            
+            <?php echo do_shortcode("[swiper-js-slider id=157]"); ?>
             
             
             

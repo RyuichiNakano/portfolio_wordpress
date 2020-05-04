@@ -15,7 +15,7 @@ body header .header_container .navbar-nav {
     color: white;
     font-size: 2rem;
     margin: 20px; }
-body .section1 {
+body #section_about {
   margin-bottom: 500px; }
 body .main_photo {
   background-image: url("images/portfolio_topphoto.png");
@@ -46,7 +46,9 @@ body .main_container .about_page {
     body .main_container .about_page .myphoto_img .thenkyou_text {
       top: -10vh;
       position: absolute;
-      left: 3vw; }
+      left: 3vw;
+      display: flex;
+      justify-content: center; }
     body .main_container .about_page .myphoto_img img {
       max-width: 100%;
       border-radius: 200px;
@@ -64,22 +66,25 @@ body .main_container .about_page {
       margin: 50px 0 0 35px; }
       body .main_container .about_page .myphoto_img .explanatory_text p {
         margin: auto; }
-body .thenkyou_text {
-  display: flex;
-  justify-content: center; }
-body .works_container .childworks_container {
-  position: relative; }
-  body .works_container .childworks_container .works_background {
+body #section_works {
+  margin-bottom: 500px; }
+  body #section_works .childworks_container {
+    position: relative; }
+  body #section_works .works_background {
     background-color: #d8ebe9;
     height: 500px;
     position: absolute;
     top: 2vh;
     width: 100%; }
-body .works_container .works_page {
-  width: 60%;
-  margin: 0 auto;
-  display: flex; }
-  body .works_container .works_page h2 {
+  body #section_works .works_page {
+    width: 60%;
+    margin: 0 auto;
+    display: flex; }
+  body #section_works .thenkyou_text {
+    position: absolute;
+    top: -7vh;
+    left: 29vw; }
+  body #section_works h2 {
     transform: rotateZ(90deg);
     position: absolute;
     top: -7vh;
@@ -87,10 +92,44 @@ body .works_container .works_page {
     font-size: 80px;
     transform-origin: top left;
     width: 100%; }
-  body .works_container .works_page .explanatory_text {
+  body #section_works .explanatory_text {
     margin: 50px 0 0 35px; }
-  body .works_container .works_page .explanatory_works {
+  body #section_works .explanatory_works {
+    color: white;
     display: flex;
+    width: 70%;
+    position: absolute;
+    left: 29vw;
+    top: 30px;
+    z-index: 1;
+    height: 400px;
+    background-repeat: no-repeat;
+    justify-content: space-between; }
+  body #section_works .swiper-slide {
+    margin-right: 35px;
     width: 100%; }
+  body #section_works h4 {
+    position: absolute;
+    top: 42vh; }
+  body #section_works p {
+    position: absolute;
+    top: 45vh; }
+body #legend {
+  padding: 10px;
+  overflow: hidden;
+  position: relative; }
+body ul.pie-legend {
+  list-style: none outside none;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 0;
+  position: relative;
+  left: 50%; }
+body ul.pie-legend > li {
+  float: left;
+  margin-right: 5px;
+  padding: 5px;
+  position: relative;
+  left: -50%; }
 
 /*# sourceMappingURL=style.css.map */
