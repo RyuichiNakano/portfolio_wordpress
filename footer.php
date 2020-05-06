@@ -1,33 +1,19 @@
     <footer>
-        <div class="footer_container">
-            <div class="footer_nav">
-                <div class="nav1">
-                    <h4>BLOG</h4>
-                    <p>word press作成方法</p>
-                    <p>勉強アウトプット</p>
-                    <p>word press作成方法</p>
-                    <p>勉強アウトプット</p>
-                </div>
-                <div class="nav1">
-                    <h4>WORKS</h4>
-                    <p>仕事紹介ページ</p>
-                </div>
-                <div class="nav1">
-                    <h4>ABOUT</h4>
-                    <p>自己紹介ページ</p>
-                </div>
-                <div class="nav1">
-                    <h4>CONTACT</h4>
-                    <p>お問い合わせ</p>
-                </div>
-            </div><!--fotter_nav-->
-        </div><!--fotter_container-->
-        <div class="footer_icon">
-            <!--myicon-->
-            <!--instaicon-->
-            <!--twittericon-->
-            <!--facebookicon-->
-        </div>
+        <section class=footer_section>
+                <div class="contact_container">
+                    <div class="contact_form">
+                        <form action="confirm.php" method="post">
+                            <h2>CONTACT</h2>
+                            <div class="input_form">
+                            <input type="text" name="yourname" placeholder="お名前">
+                            <input  type="email" name="mail" placeholder="メールアドレス">
+                            <textarea  name="comment" placeholder="メッセージ内容"></textarea>
+                            <input type="submit" value="SEND MAIL">
+                            </div>
+                        </form>
+                    </div><!--contact_form-->
+                </div><!--contact_container-->
+            </section>
     </footer>
 
     <!-- Optional JavaScript -->

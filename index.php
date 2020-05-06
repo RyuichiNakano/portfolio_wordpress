@@ -86,11 +86,11 @@
             </section>
           
             <section id="section_skills">
-            <div class="slills_container">
+            <div class="skill_container">
             
-            <div class="childworks_container">
+            <div class="childskill_container">
                 <div class="works_background"></div>
-                    <div class="works_page">
+                    <div class="skill_page">
                     <div class="thenkyou_text">
                         <h3>僕が作成した作品です。模写作品が多くなっています。今後徐々に増やしていきます。
                         <br>どんなスキルでも貪欲に学んでいきたいと思っています。
@@ -98,7 +98,7 @@
                         </h3>
                         </div><!--thenkyou_text-->
                     <h2>WORKS</h2>
-                    <div class="explanatory_works">
+                    <div class="explanatory_skill">
                        
                         <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/325/700/400/);">    
                         <h4>SHOPPING SITE<span>模写作品</span></h4>
@@ -120,34 +120,18 @@
                         ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。ここにはworksの説明が入ります。
                         </p>
 		            </div>
-                 </div><!--child_page-->
+                 </div><!--explanatory_skill-->
                     
-                </div><!--works_page-->
-              </div><!--childworks_container-->
-             </div><!--works_container-->
+                </div><!--skill_page-->
+              </div><!--childskill_container-->
+             </div><!--skills_container-->
             </section>
             
             
             	
 　　　　　　<canvas id=“graph” width=“300px” height=“300px”></canvas>
-            <?php echo do_shortcode("[swiper-js-slider id=157]"); ?>
-            
-            
-            
-            
-            <section>
-                <div class="contact_container">
-                    <div class="contact_form">
-                        <form action="confirm.php" method="post">
-                            <input type="text" name="yourname" placeholder="お名前">
-                            <input  type="email" name="mail" placeholder="メールアドレス">
-                            <textarea  name="comment" placeholder="メッセージ内容"></textarea>
-                            <input type="submit" value="SEND MAIL">
-                        </form>
-                    </div><!--contact_form-->
-                </div><!--contact_container-->
-            </section>
-    </main>
+        </main>
+        <?php get_footer(); 
     
 
  
