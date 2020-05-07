@@ -89,7 +89,8 @@ body{
                                 position: absolute;
                                 left: 3vw;
                                 display: flex;
-        justify-content: center;
+                                justify-content: center;
+                                font-family: YuMincho,'Yu Mincho', serif;
                             }
                     
                      img{
@@ -194,32 +195,58 @@ body{
             
             p{
                 position: absolute;
-                top: 45vh;
+                top: 42vh;
+                width: 41%;
             }
         }//section_works
            
-       
-        #legend {
-        padding: 10px;
-        overflow: hidden;
-        position: relative;
-    }
-    ul.pie-legend {
-        list-style: none outside none;
-        float: left;
-        margin: 0 0 0 0;
-        padding: 0;
-        position: relative;
-        left: 50%;
-    }
-    ul.pie-legend > li {
-        float: left;
-        margin-right: 5px;
-        padding: 5px;
-        position: relative;
-        left: -50%;
-    }
-    
-    
+      .footer_section{
+          position: relative;
+          background-color: #eee;
+          height: 500px;
+      }
+      
+      .contact_container{
+          
+            position: absolute;
+            top: 2vh;
+            left: 29vw;
+            font-size: 80px;
+            transform-origin: top left;
+            width: 100%;
+          
+          .contact_form{
+              position: relative;
+          }
+          
+          
+          h2{
+             transform: rotateZ( 90deg );
+             position: absolute;
+             top: -14vh;
+             left: -3vw;
+             font-size: 80px;
+             transform-origin: top left;
+             width: 100%;       
+             
+                    }
+                    
+          .input_form{
+              font-size: 20px;
+              border-radius: 5px;
+              
+              
+              input{
+                  display: block;
+                  margin-bottom: 50px;
+              }
+              
+              textarea{
+                  display: block;
+                  margin-bottom: 50px;
+              }
+          }
+          
+      }
     
 }//body
